@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable ic_content_copy_white_48dp
+id action_copy_output
+id scrollView
+id statusText
+layout activity_main
+menu actionbar
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw cardschemes_public_root_ca_keys
+string action_copy
+string action_copy_toast
+string action_copy_tooltip
+string app_name
+string clipboard_label
+string tip_volume_keys
+style AppTheme
+xml nfc_tech

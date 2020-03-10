@@ -65,8 +65,10 @@ public class MainActivity extends FlutterActivity {
   protected void onResume() {
     if (!NFCUtils.isNfcAvailable(this)) {
       log("Sorry, this device doesn't seem to support NFC.\nThis app will not work. :-(");
+      channel.invokeMethod("backCardNumber", "No NFC support");
     } else if (!NFCUtils.isNfcEnabled(this)) {
       log("NFC is disabled in system settings.\nPlease enable it and restart this app.");
+      channel.invokeMethod("backCardNumber", "NFC disabled");
     } else {
       nfcUtils.enableDispatch();
     }

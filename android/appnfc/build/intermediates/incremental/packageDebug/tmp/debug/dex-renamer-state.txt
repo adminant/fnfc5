@@ -1,0 +1,4 @@
+#Tue Mar 10 14:08:09 MSK 2020
+base.0=/Users/macuser/Documents/keytest/android-emv-key-test/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

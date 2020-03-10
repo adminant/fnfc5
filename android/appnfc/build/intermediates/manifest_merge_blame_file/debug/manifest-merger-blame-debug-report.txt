@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="at.zweng.emv"
+4    android:versionCode="3"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.NFC" />
+11-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:5:5-61
+11-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:5:22-59
+12
+13    <uses-feature
+13-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:6:5-8:38
+14        android:name="android.hardware.nfc"
+14-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:7:13-48
+15        android:required="true" />
+15-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:8:13-36
+16
+17    <application
+17-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:10:5-27:19
+18        android:allowBackup="true"
+18-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:11:13-39
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:12:13-47
+20        android:label="@string/app_name"
+20-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:13:13-45
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:14:13-58
+22        android:supportsRtl="true"
+22-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:15:13-39
+23        android:theme="@style/AppTheme" >
+23-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:16:13-44
+24        <activity
+24-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:18:9-26:20
+25            android:name="at.zweng.emv.MainActivity"
+25-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:18:19-47
+26            android:label="@string/app_name"
+26-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:19:19-51
+27            android:launchMode="singleTask"
+27-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:20:19-50
+28            android:screenOrientation="portrait" >
+28-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:21:19-55
+29            <intent-filter>
+29-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:22:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:23:17-68
+30-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:24:17-76
+32-->/Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

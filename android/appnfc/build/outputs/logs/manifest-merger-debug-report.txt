@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:3:11-33
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:5:5-61
+	android:name
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:5:22-59
+uses-feature#android.hardware.nfc
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:6:5-8:38
+	android:required
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:8:13-36
+	android:name
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:7:13-48
+application
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:10:5-27:19
+	android:supportsRtl
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:15:13-39
+	android:label
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:13:13-45
+	android:roundIcon
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:14:13-58
+	android:icon
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:12:13-47
+	android:allowBackup
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:11:13-39
+	android:theme
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:16:13-44
+activity#at.zweng.emv.MainActivity
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:screenOrientation
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:21:19-55
+	android:label
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:19:19-51
+	android:launchMode
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:20:19-50
+	android:name
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:23:17-68
+	android:name
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macuser/Documents/keytest/android-emv-key-test/app/src/main/AndroidManifest.xml
