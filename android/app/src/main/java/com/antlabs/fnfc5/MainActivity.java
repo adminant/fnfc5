@@ -13,6 +13,8 @@ import com.github.devnied.emvnfccard.model.EmvCard;
 import com.github.devnied.emvnfccard.parser.EmvParser;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import at.zweng.emv.provider.Provider;
 import at.zweng.emv.utils.NFCUtils;
@@ -97,6 +99,7 @@ public class MainActivity extends FlutterActivity {
         protected void onPreExecute() {
           super.onPreExecute();
           log("Start reading card. Please wait...");
+          channel.invokeMethod("backCardNumber", "Reading...");
         }
 
         @Override
@@ -104,6 +107,7 @@ public class MainActivity extends FlutterActivity {
           tagIsoDep = IsoDep.get(mTag);
           if (tagIsoDep == null) {
             log("Couldn't connect to NFC card. Please try again.");
+            channel.invokeMethod("backCardNumber", "Error reading");
             return;
           }
           exception = null;
@@ -134,22 +138,26 @@ public class MainActivity extends FlutterActivity {
                 printResults();
                 //
                 //mResult.success(mReadCard.getCardNumber());
-                channel.invokeMethod("backCardNumber", mReadCard.getCardNumber());
+                Date date = mReadCard.getExpireDate();
+                SimpleDateFormat formatter = new SimpleDateFormat("MM/yyyy");
+                String strDate = formatter.format(date);
+                channel.invokeMethod("backCardNumber", mReadCard.getCardNumber() + " " + strDate);
                 //
               } else {
                 Log.w(TAG, "Reading finished, but cardNumber is null or empty..");
                 log("Sorry, couldn't parse the card data. Is this an EMV banking card?");
-                channel.invokeMethod("backCardNumber", "Not available");
+                channel.invokeMethod("backCardNumber", "No data");
               }
             } else {
               Log.w(TAG, "reading finished, no exception but card == null..");
               log("Sorry, couldn't parse the card (card is null). Is this an EMV banking card?");
+              channel.invokeMethod("backCardNumber", "Not bank card");
             }
           } else {
             Log.w(TAG, "reading finished with exception.");
             log("Sorry, we got an error while reading: \"" + exception.getLocalizedMessage() +
                     "\"\nDid you remove the card?\n\nPlease try again.");
-
+            channel.invokeMethod("backCardNumber", "Error, card removed?");
           }
         }
       }.execute();
